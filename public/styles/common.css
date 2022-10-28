@@ -1,0 +1,59 @@
+@font-face {
+  font-family: neatlyPrinted;
+  src: url('/fonts/KgNeatlyPrinted-6Gwg.ttf');
+}
+
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.red {
+  color: #f95f44 !important;
+}
+
+.yellow {
+  color: #ffd962 !important;
+}
+
+.green {
+  color: #a6ec8a !important;
+}
+
+.blue {
+  color: #7bd7f2 !important;
+}
+
+.purple {
+  color: #b65bc7 !important;
+}
+
+h1#letter-container {
+  background-color: aqua;
+  font-family: neatlyPrinted;
+  background-color: rgb(53, 53, 53);
+  color: #ffff;
+  font-family: neatlyPrinted;
+  width: 100vw;
+  height: 100vh;
+  line-height: 90vh;
+  text-align: center;
+}
+
+h1.small-text {
+  font-size: 10em;
+}
+
+h1.large-text {
+  font-size: 30em;
+}
